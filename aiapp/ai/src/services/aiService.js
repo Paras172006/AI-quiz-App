@@ -1,7 +1,7 @@
 // Local backend ka URL (Development ke liye)
 // "I modularized the architecture by shifting the core AI prompting and Google Gemini API integration to a secure Node.js/Express proxy layer. This prevents API Key exposure on the client-side client bundle and establishes a baseline for implementing user-based rate limiting."
 
-const BACKEND_URL = 'http://localhost:5000/api';
+const BACKEND_URL = ' https://ai-quiz-backend-zgaz.onrender.com';
 
 export async function generateQuestions(topic, difficulty, count) {
   try {
